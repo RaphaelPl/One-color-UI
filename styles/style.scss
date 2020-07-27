@@ -1,0 +1,54 @@
+html {
+    // done here for working with rems, means that 1 rem is 10px
+    font-size: 62.5%;
+}
+
+// removes all inherited margin and padding from elements in order to specify my own
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 7.5rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 3.5rem;
+
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2.5rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@import "home"
