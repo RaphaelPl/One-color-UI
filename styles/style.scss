@@ -1,8 +1,31 @@
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     html {
-      font-size: 50%;
+        font-size: 50%;
     }
-  }
+
+    nav {
+        #logo {
+            flex: 1;
+        }
+
+        ul {
+            li {
+                margin-left: 5rem;
+            }
+        }
+    }
+
+    .showcase {
+        grid-template-columns: 10% 1fr 10%;
+
+        img {
+            width: 110%;
+            object-fit: contain;
+        }
+    }
+
+}
+
 
 html {
     // done here for working with rems, means that 1 rem is 10px
@@ -58,8 +81,6 @@ a {
 
 
 @import "home";
-@import "feature";
+@import "features";
 @import "soon";
 @import "footer"
-
-
