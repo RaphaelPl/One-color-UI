@@ -1,0 +1,20 @@
+footer {
+    min-height: 10vh;
+    background: black;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        // takes up the space in the nav 
+        flex: 1;
+        list-style: none;
+    }
+    h1 {
+        flex: 3;
+    }
+}

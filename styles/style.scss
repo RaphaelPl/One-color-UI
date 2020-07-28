@@ -1,3 +1,9 @@
+@media screen and (min-width: 1200px) {
+    html {
+      font-size: 50%;
+    }
+  }
+
 html {
     // done here for working with rems, means that 1 rem is 10px
     font-size: 62.5%;
@@ -51,4 +57,9 @@ a {
 
 
 
-@import "home"
+@import "home";
+@import "feature";
+@import "soon";
+@import "footer"
+
+
